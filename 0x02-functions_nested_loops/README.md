@@ -22,7 +22,6 @@ functions written in the project.
 | `10-add.c`               | `int add(int, int);`             |
 | `11-print_to_98.c`       | `void print_to_98(int n);`       |
 | `12-times_table.c`      | `void print_times_table(int n)`  |
-
 ## Tasks :page_with_curl:
 
 * **0. _putchar**

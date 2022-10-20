@@ -1,7 +1,6 @@
 /*
  * File: 6-abs.c
- 
-* Auth: Abaynew G.  */
+ * Auth: Abaynew G.  */
 #include "main.h" 
 /**
  * _abs - Computes the absolute value of an integer.
