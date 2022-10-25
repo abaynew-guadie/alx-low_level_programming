@@ -2,16 +2,17 @@
 /**
 * puts_half - half of a string.
 *string to be printed.
+* parameter or member 'str'for puts_half                                      
 */
 void puts_half(char *str)
 {
 int i = 0,
 len = 0, j;
-while(str[i++])
+while (str[i++])
 len++;
-if((len % 2) == 0)
+if ((len % 2) == 0)
 j = len / 2;
-else  
+else   
 j = (len + 1) / 2;
 for (i = j; i < len; i++)  
 _putchar(str[i]);
