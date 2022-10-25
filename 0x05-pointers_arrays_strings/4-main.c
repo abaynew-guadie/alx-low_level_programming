@@ -6,7 +6,7 @@
 int main(void)
 {
 char *str;
-str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+str = "every thing is possible to do";
 print_rev(str);
 return (0); 
 }

@@ -1,10 +1,10 @@
 /*
- * File: 4-rev_array.c
- * Auth: Abaynew G.
- */
+* File: 4-rev_array.c
+* Auth: Abaynew G.
+*/
 #include "main.h"
 /**
- * reverse_array - Reverses the contentof an array of integer
+* reverse_array - Reverses the contentof an array of integer
 * @a: The array of integers to be reversed.
 * @n: The number of elements in the array. 
 */
