@@ -1,7 +1,8 @@
 #include "main.h"
 /**
 * puts_half - half of a string.
-*string to be printed.
+*puts_half the function method
+*description found for parameter or member 'str'string to be printed.
 *@str  parameter str for puts_half
 */
 void puts_half(char *str)
