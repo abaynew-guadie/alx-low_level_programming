@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * puts2 - Prints one char out of two of a strin
-*@s str at puts2 containing characters.
+*@str: The string to be encoded.
 */
 void puts2(char *str)
 {
