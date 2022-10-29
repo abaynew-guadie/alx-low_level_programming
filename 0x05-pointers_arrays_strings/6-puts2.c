@@ -1,8 +1,7 @@
 #include "main.h"
 /**
 * puts2 - Prints one char out of two of a strin
-*the prameter for str 
-*that containing characters.
+*@s str at puts2 containing characters.
 */
 void puts2(char *str)
 {
