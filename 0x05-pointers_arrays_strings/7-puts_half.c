@@ -2,8 +2,7 @@
 /**
 * puts_half - half of a string.
 *puts_half the function method
-*description found for parameter or member 'str'string to be printed.
-*@str  parameter str for puts_half
+*@str: The string to be encoded.
 */
 void puts_half(char *str)
 {
