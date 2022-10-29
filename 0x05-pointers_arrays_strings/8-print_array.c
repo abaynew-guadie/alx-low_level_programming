@@ -1,7 +1,7 @@
 /*
- * File: 8-rot13.c
- * Auth:  Abaynew G.
- */
+* File: 8-rot13.c
+* Auth:  Abaynew G.
+*/
 #include "main.h"
 /**
 * rot13 - Encodes a string using rot13.
@@ -30,18 +30,16 @@ char rot13key[52] = {'N', 'O', 'P', 'Q', 'R', 'S',
 		       'd', 'e', 'f', 'g', 'h', 'i',
 		       'j', 'k', 'l', 'm'};
 while (str[indx1])
-    {
-      for (indx2 = 0; indx2 < 52; indx2++)
-	{
-	  if (str[indx1] == alphabet[indx2])
-	    {
-	      str[indx1] = rot13key[indx2];
-	      break;
-	    }
-	}
-
-      indx1++;
-    }
-
-  return (str);
+{
+for (indx2 = 0; indx2 < 52; indx2++)
+{
+if (str[indx1] == alphabet[indx2])
+{
+str[indx1] = rot13key[indx2];
+break;
+}
+}
+indx1++;
+}
+return (str);
 }
