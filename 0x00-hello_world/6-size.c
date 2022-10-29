@@ -4,7 +4,7 @@
 */
 #include <stdio.h>
 /**
-* main - entry point to Prints the size of various types based computer to compiled and run on..
+* main - entry point.
 * Return: Always 0.
 */
 int main(void)
