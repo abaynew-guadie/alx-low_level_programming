@@ -1,11 +1,11 @@
-/*
+/**
  * File: 6-size.c
- * Auth:Abaynew G. */
+ * Auth:Abaynew G.
+*/
 #include <stdio.h>
 /**
- * main - Prints the size of various types based on
- *        the computer it is compiled and run on..
- * Return: Always 0.
+* main - entry point to Prints the size of various types based computer to compiled and run on..
+* Return: Always 0.
 */
 int main(void)
 {
