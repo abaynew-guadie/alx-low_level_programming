@@ -1,1 +1,1 @@
-file that contains the password for the crackme2 executable.
+0x07 pointers arrays strings 
