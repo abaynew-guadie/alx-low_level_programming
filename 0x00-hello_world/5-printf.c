@@ -1,10 +1,7 @@
-/**
-* File: 5-printf.c
-* Auth: Abaynew G.
-*/
 #include <stdio.h>
 /**
- *main - Entry point
+* main - Print texts
+*
 * Return: Always 0 (Success)
 */
 int main(void)
