@@ -1,11 +1,8 @@
-/**
- * File: 6-size.c
- * Auth:Abaynew G.
-*/
 #include <stdio.h>
 /**
-* main - entry point.
-* Return: Always 0.
+* main - Prints a size of data type
+*
+* Return: Always 0 (Sucsess)
 */
 int main(void)
 {
