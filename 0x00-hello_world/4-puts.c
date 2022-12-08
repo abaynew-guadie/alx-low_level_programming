@@ -1,4 +1,4 @@
-/*
+/**
 * File: 4-puts.c
 * Auth: abaynew G.
 */
