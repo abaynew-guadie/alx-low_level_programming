@@ -1,12 +1,8 @@
-/**
-* File: 4-puts.c
-* Auth: abaynew G.
-*/
 #include <stdio.h>
 /**
-*main - Enter points
+* main - Puts at texts
 *
-*Return :  Always 0 (Success)
+*Return:  Always 0 (Success)
 */
 int main(void)
 {
