@@ -1,14 +1,10 @@
-/**
-* File: 0-positive_or_negative.c
-* Auth: Abaynew G
-*/
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
-* main entry point
-* Prints a random number and states whether is positive, negative,
-* Return: Always 0.
+* main - Prints number the random and states whether is positive, negative
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
