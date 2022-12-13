@@ -1,7 +1,3 @@
-/**
- * File: 10-add.c
- * Auth: Abaynew G.
-*/
 #include "main.h"
 /**
 * add - adds two integers.
