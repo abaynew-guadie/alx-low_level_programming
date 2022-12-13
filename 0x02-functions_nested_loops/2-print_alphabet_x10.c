@@ -1,11 +1,7 @@
-/**
-* File: 2-print_alphabet_x10.c
-* Auth: Abaynew G.
-*/
 #include "main.h"
 /**
-* print_alphabet_x10 - Print lowercase alphabet 10 times 
-* 
+* print_alphabet_x10 - Print lowercase alphabet 10 times
+*
 */
 void print_alphabet_x10(void)
 {
