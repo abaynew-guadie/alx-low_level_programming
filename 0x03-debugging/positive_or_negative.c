@@ -1,8 +1,9 @@
+#include "main.h"
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
- *  positive_or_negative - Enter point
+ *  positive_or_negative - Enter numberpositive negative and zero
  *  @n: arg from main function
  *  Return: Always 0 if it completed successfully
 */
