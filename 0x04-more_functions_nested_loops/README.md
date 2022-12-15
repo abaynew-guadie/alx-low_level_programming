@@ -1,1 +1,1 @@
- function that prints a triangle, followed by a new line.
+a function that checks for uppercase character.
