@@ -2,14 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints number the random and states whether is positive, negative
- *
- * Return: Always 0 (Success)
+ *  positive_or_negative - Enter point
+ *  @n: arg from main function
+ *  Return: Always 0 if it completed successfully
 */
-int main(void)
+void positive_or_negative(int n)
 {
-int n;
-srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 printf("%d is positive\n", n);
