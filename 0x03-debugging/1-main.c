@@ -3,7 +3,7 @@
 /**
 * main - Prints an infinite loop
 *
-* Return: 0 Aways(Success)
+* Return: 0
 */
 int main(void)
 {
