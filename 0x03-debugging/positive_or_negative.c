@@ -8,7 +8,7 @@
 * Return: 0
 */
 void positive_or_negative(int i)
-{srand(time(0));
+{
 i = rand() - RAND_MAX / 2;
 if (i > 0)
 {
@@ -22,5 +22,5 @@ else
 {
 printf("%d is negative\n", i);
 }
-return (0);
+/*return (0);*/
 }
