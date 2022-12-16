@@ -5,15 +5,11 @@
 /**
 * positive_or_negative - Prints function  whether is positive, negative
 * @i: arg number
-*
 * Return: 0
 */
 void positive_or_negative(int i)
-{
-/*int n = i;*/
-/*int main(void) //{ //int n;*/
-srand(time(0));
-i = rand() - RAND_MAX / 2;	/* your code goes there */
+{srand(time(0));
+i = rand() - RAND_MAX / 2;
 if (i > 0)
 {
 printf("%d is positive\n", i);
