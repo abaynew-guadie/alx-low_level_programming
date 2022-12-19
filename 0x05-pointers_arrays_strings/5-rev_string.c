@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* 5-rev_string - Reverses a string.
-*@s rev_string is a function
+* rev_string - Reverses a string, rev_string is a function
+* @s: the  char on parameter of poniter s
+*
 * i to be reserved.0
-* @S the  char on parameter of poniter s
 */
 void rev_string(char *s)
 {
