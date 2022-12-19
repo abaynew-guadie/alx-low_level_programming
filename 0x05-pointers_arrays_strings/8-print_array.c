@@ -1,11 +1,8 @@
-/*
-* File: 8-rot13.c
-* Auth:  Abaynew G.
-*/
 #include "main.h"
 /**
 * rot13 - Encodes a string using rot13.
 * @str: The string to be encoded.
+*
 * Return: A pointer to the encoded string.
 */
 char *rot13(char *str)
