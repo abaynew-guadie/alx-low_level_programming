@@ -1,7 +1,9 @@
 #include "main.h"
 #include <stdio.h>
+#include <errno.h>
+
 /**
- * main - Printe the heck the code
+  * main - Printe the heck the code
  *
  * Return: Always 0.
 */
