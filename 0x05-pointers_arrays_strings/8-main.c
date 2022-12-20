@@ -1,12 +1,13 @@
 #include "main.h"
 /**
-* main - check the code for
+* main - Check the code for integer numbers
 *
 * Return: Always 0.
 */
 int main(void)
 {
 int array[5];
+
 array[0] = 98;
 array[1] = 402;
 array[2] = -198;
