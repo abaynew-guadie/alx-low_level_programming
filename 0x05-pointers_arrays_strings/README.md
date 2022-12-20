@@ -1,1 +1,1 @@
-a function that convert a string to an intege
+0x05. C - Pointers, arrays and strings
