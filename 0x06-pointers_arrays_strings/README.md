@@ -1,2 +1,1 @@
- 0x06 pointers arrays and string 
- function that concatenates two strings.
+0x06. C - More pointers, arrays and strings
