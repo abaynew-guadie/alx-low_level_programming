@@ -1,5 +1,5 @@
 #ifndef MAIN_H
-#define MAIN_H 
+#define MAIN_H
 #include <stdio.h>
 int _putchar(char);
 char *_strcat(char *dest, char *src);
@@ -13,4 +13,5 @@ char *string_toupper(char*);
 char *cap_string(char*);
 char *rot13(char*);
 void print_number(int n);
-#endif 
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+#endif
