@@ -1,1 +1,1 @@
-0x06. C - More pointers, arrays and strings
+ a function that changes all lowercase letters of a string to uppercase
