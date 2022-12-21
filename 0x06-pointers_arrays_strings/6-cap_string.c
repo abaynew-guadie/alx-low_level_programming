@@ -1,22 +1,26 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * *cap_string - function
- * @str: Pointer
- * Return: poniter return to function.
+* cap_string - Function of captialized the first character words  @s
+ * @s: String to capila the pointer
+ *
+ * Return: The capital char value poniter
 */
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
-int symb[14] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
-int i, j;
-for (i = 0; str[i] != '\0'; i++)
+int a = 0, i;
+int cspc = 13;
+char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
+while (s[a])
 {
-if (str[0] >= 97 && str[0] <= 122)
+i = 0;
+while (i < cspc)
 {
-str[0] = str[0] - 32;
+if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
+s[a] -= 32;
+i++;
 }
-for (j = 0; j < 14; j++)
-if (str[i] >= 97 && str[i] <= 122 && str[i - 1] == symb[j])
-str[i] = str[i] - 32;
+a++;
 }
-return (str);
+return (s);
 }
