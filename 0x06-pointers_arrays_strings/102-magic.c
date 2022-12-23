@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+* main - Print the function of void
+*
+* Return: Always 0.
+*/
 int main(void)
 {
 int n;
