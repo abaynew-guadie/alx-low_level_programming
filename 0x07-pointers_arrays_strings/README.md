@@ -1,1 +1,1 @@
-0x07. C - Even more pointers, arrays and strings
+a function that copies memory area.
