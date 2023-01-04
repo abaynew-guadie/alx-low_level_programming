@@ -1,1 +1,1 @@
-a file that contains the password for the crackme2 executable.
+ 0x07. C - Even more pointers, arrays and strings.
