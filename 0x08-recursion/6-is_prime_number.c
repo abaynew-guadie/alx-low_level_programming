@@ -16,6 +16,7 @@ return (0);
 if (div == num / 2)
 return (1);
 return (is_divisible(num, div + 1));
+}
 /**
  * is_prime_number - Prints the prime numbers
  * @n: The number to be checked.
@@ -31,5 +32,4 @@ return (0);
 if (n >= 2 && n <= 3)
 return (1);
 return (is_divisible(n, div));
-}
 }
