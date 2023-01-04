@@ -1,4 +1,3 @@
-
 #include "main.h"
 int strlen_no_wilds(char *str);
 void iterate_wild(char **wildstr);
@@ -60,7 +59,7 @@ return (postfix_match(str, postfix));
 return (postfix);
 }
 /**
- *  wildcmp - Compares two strings, considering wildcard characters.
+ *  wildcmp - Prints two strings, considering wildcard characters.
  *  @s1: The first string to be compared.
  *  @s2: The second string to be compared - may contain wildcards.
  *
@@ -73,6 +72,7 @@ if (*s2 == '*')
 {
 iterate_wild(&s2);
 s2 = postfix_match(s1, s2);
+}
 if (*s2 == '\0')
 return (1);
 if (*s1 != *s2)
