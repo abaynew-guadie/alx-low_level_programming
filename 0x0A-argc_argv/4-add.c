@@ -15,8 +15,8 @@ int i;
 unsigned int k, sum = 0;
 char *e;
 if (argc > 1)
-
-{										for (i = 1; i < argc; i++)
+{
+for (i = 1; i < argc; i++)
 {										e = argv[i];
 for (k = 0; k < strlen(e); k++)
 {
