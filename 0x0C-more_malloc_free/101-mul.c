@@ -118,7 +118,9 @@ return (sum_result);
  *
  *  Return: void
  */
-void print_me(int *sum_result, int len_r)   {
+void print_me(int *sum_result, int len_r)
+{
+
 int i = 0;
 while (sum_result[i] == 0 && i < len_r)
 i++;
