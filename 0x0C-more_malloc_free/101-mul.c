@@ -43,7 +43,7 @@ return ((void *)p);
  * @mul_result: pointer to array with numbers from product
  * @sum_result: pointer to array with numbers from total sum
  *
- *     * @len_r: length of both arrays
+ *  @len_r: length of both arrays
  *
  * Return: void
  */
@@ -118,10 +118,8 @@ return (sum_result);
  *
  *  Return: void
  */
-void print_me(int *sum_result, int len_r)
-{
+void print_me(int *sum_result, int len_r)   {
 int i = 0;
-
 while (sum_result[i] == 0 && i < len_r)
 i++;
 if (i == len_r)
@@ -136,16 +134,15 @@ putchar('\n');
  *@argv: input array of string args
  *
  * Return: 0, Success
-  */
-
+ */
 int main(int argc, char **argv)
-
 {
 int len_1, len_2, len_r, temp, *sum_result;
 char *num1, *num2;
 
 if (argc != 3)
 {
+
 printf("Error\n");
 exit(98);
 }
