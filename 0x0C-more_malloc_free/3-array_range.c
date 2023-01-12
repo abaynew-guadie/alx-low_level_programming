@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
  * array_range - ...
  * @min: ...
@@ -17,7 +16,10 @@ a = malloc((sizeof(int) * (max - min)) + sizeof(int));
 if (a == NULL)
 return (NULL);
 while (min <= max)
-{										a[i] = min;
-i++;										min++;										}
+{
+a[i] = min;
+i++;
+min++;
+}
 return (a);
 }
