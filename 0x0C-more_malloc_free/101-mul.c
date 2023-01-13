@@ -138,7 +138,6 @@ int main(int argc, char **argv)
 {
 int len_1, len_2, len_r, temp, *sum_result;
 char *num1, *num2;
-
 if (argc != 3)
 {
 printf("Error\n");
