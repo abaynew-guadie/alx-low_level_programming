@@ -1,1 +1,1 @@
-0x0E. C - Structures, typedef
+a function that prints a struct dog
