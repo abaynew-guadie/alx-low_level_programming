@@ -1,1 +1,1 @@
-Beauty is variable, ugliness is constant
+Beauty is variable, ugliness is constant echo Beauty is variable, ugliness is constant
