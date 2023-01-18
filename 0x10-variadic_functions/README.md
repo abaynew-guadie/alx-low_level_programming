@@ -1,1 +1,1 @@
-To be is a to be the value of a variable
+0x10. C - Variadic functions
