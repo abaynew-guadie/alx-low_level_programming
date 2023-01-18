@@ -1,33 +1,36 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <udis86.h>
 /**
- * main - ...
- * @argc: ...
- * @argv: ...
+ * main - function with two arguments
+ * @argc: int type argument count
+ * @argv: char type argument array
+ * Description: print opcode
  *
- * Return: ...
+ *  Return: na
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-ud_t ud_obj;
-int val = 0, i = 0;
-if (argc == 2)
+int count;
+count = 0;
+if (argc != 2)
 {
-val = atoi(argv[1]);
-if (val < 0)
+printf("Error\n");
+exit(1);
+}
+if (atoi(argv[1]) < 0)
 {
 printf("Error\n");
 exit(2);
 }
-ud_unit(&ud_obj);
-ud_set_input_buffer(&ud_obj, argv[1], val);
-ud_set_mode(&ud_obj, 64);
-ud_set_syntax(&ud_obj, UD_SYN_INTEL);
-while (ud_disassemble(&ud_obj))
+while (count < atoi(argv[1]))
 {
-printf("\t%s\n", ud_insn_hex(&ud_obj));
+printf("%02x", *((unsigned char *)main + count));
+count++;
+if (atoi(argv[1]) > count)
+{
+printf(" ");
 }
 }
+printf("\n");
 return (0);
 }
