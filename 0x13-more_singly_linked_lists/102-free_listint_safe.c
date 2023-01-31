@@ -1,40 +1,84 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "lists.h"
+
+size_t looped_listint_count(listint_t *head);
+size_t free_listint_safe(listint_t **h);
 /**
- * free_listint_safe - function to free list
- * @h: pointer to the pointer of the list
+ * looped_listint_count - Counts the number of unique nodes a looped
+ * @head: A pointer to the head of the listint_t to check.
  *
- * Return: count
+ * Return: If the list is not looped - 0.
+ *  Otherwise - the number of unique nodes in the list.
+ */
+size_t looped_listint_count(listint_t *head)
+{
+listint_t *tortoise, *hare;
+size_t nodes = 1;
+if (head == NULL || head->next == NULL)
+return (0);
+tortoise = head->next;
+hare = (head->next)->next;
+while (hare)
+{
+if (tortoise == hare)
+{
+tortoise = head;
+
+while (tortoise != hare)
+{
+nodes++;
+tortoise = tortoise->next;
+hare = hare->next;
+}
+tortoise = tortoise->next;
+
+while (tortoise != hare)
+{
+nodes++;
+tortoise = tortoise->next;
+}
+return (nodes);
+}
+tortoise = tortoise->next;
+hare = (hare->next)->next;
+
+}
+return (0);
+}
+/**
+ * free_listint_safe - Frees a listint_t list safely
+ * @h: A pointer to the address of the head of the listint_t list.
+ *
+ * Return: The size of the list that was freed.
+ * Description: The function sets the head to NULL.
  */
 size_t free_listint_safe(listint_t **h)
 {
-size_t count_new = 0, count_comp = 0;
-listint_t *tmp, *head, *comp;
-if (h == NULL || *h == NULL)
-return (0);
-head = comp = tmp = *h;
-count_new = 0;
-while (head != NULL)
+listint_t *tmp;
+size_t nodes, index;
+nodes = looped_listint_count(*h);
+if (nodes == 0)
 {
-comp = *h;
-count_comp = 0;
-while (count_new > count_comp)
-{
-if (tmp == comp)
-{
-*h = NULL;
-return (count_new);
-}
-count_comp++;
-comp = comp->next;
-}
-count_new++;
-tmp = head->next;
-free((void *)head);
-head = tmp;
-}
-*h = tmp;
-return (count_new);
 
+for (; h != NULL && *h != NULL; nodes++)
+{
+tmp = (*h)->next;
+free(*h);
+*h = tmp;
+}
+}
+else
+{
+
+for (index = 0; index < nodes; index++)
+{
+tmp = (*h)->next;
+free(*h);
+*h = tmp;
+}
+*h = NULL;
+}
+h = NULL;
+return (nodes);
 }
