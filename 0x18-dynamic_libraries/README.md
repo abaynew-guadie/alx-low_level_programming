@@ -1,1 +1,1 @@
-Without libraries what have we?
+0x18. C - Dynamic libraries
