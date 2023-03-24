@@ -1,1 +1,1 @@
-0x18-dynamic_libraries  read files
+0x18. C - Dynamic libraries
