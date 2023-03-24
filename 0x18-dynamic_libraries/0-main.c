@@ -9,6 +9,5 @@
 int main(void)
 {
 printf("%d\n", _strlen("My Dyn Lib"));
-/*exit(EXIT_SUCCESS);*/
 return (EXIT_SUCCESS);
 }
