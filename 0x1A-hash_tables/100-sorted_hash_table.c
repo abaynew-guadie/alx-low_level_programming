@@ -183,7 +183,7 @@ unsigned long int index;
 shash_node_t *node, *curr_old_node;
 
 if (key == NULL || ht == NULL)
-	
+
 return (0);
 
 /* set the item in the table */
