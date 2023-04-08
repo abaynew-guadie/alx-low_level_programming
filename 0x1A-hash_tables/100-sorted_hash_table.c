@@ -1,6 +1,5 @@
-#include "hash_tables.h"
 #include <stdio.h>
-
+#include "hash_tables.h"
 /**
  * shash_table_create - creates a sorted hash table.
  * @size: number of array slots to make the table.
